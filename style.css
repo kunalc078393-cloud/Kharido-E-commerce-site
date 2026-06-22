@@ -12,7 +12,7 @@ header {
   padding: 10px;
 }
 
-header .logo {
+.logo {
   font-size: 20px;
   font-weight: bold;
 }
@@ -32,20 +32,23 @@ nav a {
   text-decoration: none;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
   text-align: center;
   padding: 30px;
   background-color: #eee;
 }
 
-/* About Section */
-.about {
-  padding: 20px;
-
+.hero img {
+  max-width: 100%;
 }
 
-/* Products Section */
+/* About */
+.about {
+  padding: 20px;
+}
+
+/* Products */
 .products {
   padding: 20px;
 }
@@ -67,7 +70,7 @@ nav a {
   height: 150px;
 }
 
-/* Contact Section */
+/* Contact */
 .contact {
   padding: 20px;
 }
@@ -85,10 +88,28 @@ nav a {
   padding: 8px;
 }
 
-.contact button {
+/* Login & Signup */
+.auth {
+  padding: 20px;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.auth input,
+.auth button {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
   background-color: #333;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 /* Footer */
