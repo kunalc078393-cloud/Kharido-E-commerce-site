@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <div class="logo">My Shop</div>
+    <div class="logo">Kharido</div>
 
     <nav>
         <ul>
@@ -21,26 +21,53 @@
 
 <section class="auth">
     <h2>Create Account</h2>
+    <p class="auth-intro">Create your Kharido account to save addresses, track orders, and check out faster next time.</p>
 
-    <form>
-        <label>Full Name</label>
-        <input type="text" required>
+    <div class="auth-layout">
+        <div class="auth-main">
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="Your full name" required>
 
-        <label>Email</label>
-        <input type="email" required>
+                <label>Email</label>
+                <input type="email" placeholder="you@example.com" required>
 
-        <label>Password</label>
-        <input type="password" required>
+                <label>Password</label>
+                <input type="password" placeholder="Create a strong password" required>
+                <p class="field-hint">A strong password uses 8+ characters, uppercase and lowercase letters, a number, and a symbol.</p>
 
-        <label>Confirm Password</label>
-        <input type="password" required>
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Re-enter your password" required>
 
-        <button type="submit">Sign Up</button>
-    </form>
+                <button type="submit">Sign Up</button>
+
+                <div class="auth-switch">
+                    <span>Already have an account?</span>
+                    <a href="login.html">Login instead</a>
+                </div>
+            </form>
+
+            <div class="auth-hint">
+                <h3>Kind hint</h3>
+                <p>Avoid using your name, birthday, phone number, or the same password you use on other websites.</p>
+            </div>
+        </div>
+
+        <div class="auth-side">
+            <span class="auth-badge">Kharido info</span>
+            <h3>Create your account carefully</h3>
+            <p>Your account helps Kharido recognize you when you return and keeps your shopping journey organized.</p>
+            <ul>
+                <li>Use your real email address</li>
+                <li>Choose a password you do not reuse</li>
+                <li>Confirm details before submitting</li>
+            </ul>
+        </div>
+    </div>
 </section>
 
 <footer>
-    <p>&copy; 2026 My Shop | All Rights Reserved</p>
+    <p>&copy; 2026 Kharido | All Rights Reserved</p>
 </footer>
 
 </body>

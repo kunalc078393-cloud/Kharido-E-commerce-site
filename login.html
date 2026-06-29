@@ -21,16 +21,50 @@
 
 <section class="auth">
     <h2>Login</h2>
+    <p class="auth-intro">Welcome back. Sign in to continue shopping, checking orders, and saving your favorite finds.</p>
 
-    <form>
-        <label>Email</label>
-        <input type="email" required>
+    <div class="auth-layout">
+        <div class="auth-main">
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="you@example.com" required>
 
-        <label>Password</label>
-        <input type="password" required>
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" required>
 
-        <button type="submit">Login</button>
-    </form>
+                <div class="auth-row">
+                    <label class="remember-choice">
+                        <input type="checkbox">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="signup.html">Forgot password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+
+                <div class="auth-switch">
+                    <span>New to My Shop?</span>
+                    <a href="signup.html">Create an account</a>
+                </div>
+            </form>
+
+            <div class="auth-hint">
+                <h3>Kind hint</h3>
+                <p>Use a strong password with at least 8 characters, a number, and a mix of upper and lower case letters.</p>
+            </div>
+        </div>
+
+        <div class="auth-side">
+            <span class="auth-badge">My Shop info</span>
+            <h3>Shop with simple account access</h3>
+            <p>Log in to view your shopping details and continue exploring products from where you stopped.</p>
+            <ul>
+                <li>Keep your account details private</li>
+                <li>Use a secure password every time</li>
+                <li>Check your email before signing in</li>
+            </ul>
+        </div>
+    </div>
 </section>
 
 <footer>
